@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle {
+    display: flex; 
+    flex-direction: column;
+}
+
+.header, .footer {
+    background: hsl(215, 28%, 17%);
+    color: #F9FAF8;
+}
+
+.header {
+    height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.gallery {
+    display: flex;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
