@@ -51,6 +51,7 @@ a, .subtext {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
     padding: 40px 0;
 }
@@ -164,7 +165,6 @@ a, .subtext {
     margin: 0;
 }
 
-
-
-
-
+.footer {
+    text-align: center;
+}
