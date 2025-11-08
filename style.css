@@ -17,8 +17,9 @@ body {
 }
 
 .header {
-    height: 300px;
+    min-height: 300px;
     padding: 8px 160px;
+    overflow: hidden;
 }
 
 .navbar {
@@ -41,7 +42,7 @@ ul {
     list-style-type: none;
 }
 
-a {
+a, .subtext {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -49,7 +50,35 @@ a {
 
 .hero {
     display: flex;
+    gap: 24px;
 }
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero p {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.hero button {
+    background: #3882F6;
+    color: white;
+    border: 0;
+    padding: 6px 24px;
+    border-radius: 9px;
+}
+
+.example-image {
+    background: #8e8e8f;
+    width: 360px;
+    height: 180px;
+    flex-shrink: 0;
+    text-align: center;
+} 
 
 
 
