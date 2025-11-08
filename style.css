@@ -125,6 +125,7 @@ a, .subtext {
 .quote .text {
     margin: 0;
     font-style: italic;
+    padding: 0 40px;
 }
 
 .quote .source {
@@ -132,8 +133,38 @@ a, .subtext {
     text-align: right;
     font-size: 18px;
     font-weight: bold;
-    padding: 0 40px;
+    padding: 0 80px;
 }
+
+.sign-up {
+    padding: 40px 160px;
+}
+
+.container {
+    min-height: 80px;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 9px;
+    color: white;
+}
+
+.container button {
+    background: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 24px;
+    border-radius: 9px;
+    height: 32px;
+}
+
+.container p {
+    margin: 0;
+}
+
+
 
 
 
