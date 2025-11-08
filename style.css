@@ -114,16 +114,25 @@ a, .subtext {
     margin: 0;
 }
 
-
-
-
-
-
-
-
-
 .quote {
     background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 40px 160px;
+}
+
+.quote .text {
+    margin: 0;
+    font-style: italic;
+}
+
+.quote .source {
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 40px;
 }
 
 
